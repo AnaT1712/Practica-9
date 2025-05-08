@@ -1,5 +1,4 @@
-// Práctica 9
-// Hernández Atlatenco Ana Tonalli
+// Imprimir una lista de 5 números enteros
 
 #include <stdio.h>
 int main()
