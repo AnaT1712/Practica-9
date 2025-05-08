@@ -1,4 +1,4 @@
-// Imprimir una lista de 5 números enteros
+// Dado una lista con 5 enteros, imprimir la lista 
 
 #include <stdio.h>
 int main()
