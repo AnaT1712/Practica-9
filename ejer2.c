@@ -11,7 +11,7 @@ int main()
     
     for (i=0; i<5; i++) 
     {
-        printf("introducir calif numero %d:",i+1);
+        printf("introducir calif numero:");
         scanf("%d", &list[i]);
     }
     
@@ -22,4 +22,6 @@ int main()
     
     prom= calif/5;
     printf("El promedio de calificaciones es: %d\n", prom);
+    
+    return 0; 
 } 
