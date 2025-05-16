@@ -1,17 +1,18 @@
 // utilizando una lista, capturar las 5 calificaciones de un alumno e imprimir el promedio 
 
 #include <stdio.h>
-int main()
+#include <math.h>
 
+int main()
 {
-    int list [5];
+    int list [100];
     int i;
-    int prom;
-    int calif;
+    float prom;
+    float calif;
     
     for (i=0; i<5; i++) 
     {
-        printf("introducir calif numero:");
+        printf("introducir calif:");
         scanf("%d", &list[i]);
     }
     
@@ -21,7 +22,7 @@ int main()
     }
     
     prom= calif/5;
-    printf("El promedio de calificaciones es: %d\n", prom);
+    printf("El promedio de calificaciones es: %f\n", prom);
     
     return 0; 
 } 
