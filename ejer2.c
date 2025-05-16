@@ -5,7 +5,7 @@
 
 int main()
 {
-    int list [100];
+    int list [5];
     int i;
     float prom;
     float calif;
